@@ -1,4 +1,4 @@
-﻿$string = "This is my name"
+﻿$string = Get-content $PSScriptRoot\input.txt
 $Remove = $string.Replace(" ", "")
 
 $Let = @()
