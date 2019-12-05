@@ -2,12 +2,12 @@
   Script to get the Number of characters present in a text file
   Consider the input text file Characters.txt having below value
 
-  AaabccB CCabaAz xzz
+  7 daYs without PizZa mAkes One Weak
 
 #>
 
 # Get Content of the values from Characters.txt text file
-$Value = Get-Content C:\Users\slingappa\Desktop\Characters.txt
+$Value = Get-Content $PSScriptRoot\Characters.txt
 
 $Characters = ($Value | Measure-Object -Character).Characters
 
