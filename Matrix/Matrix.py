@@ -24,6 +24,6 @@ row = int(input("Enter the row to be extracted:"))
 print(matrix[row])
 
 #quardrant
-q = int(input("Enter the  to be quardrant:"))
+q = int(input("Enter the number to be quardrant:"))
 quardrant =  [matrix[q][:2], matrix[q][:2]]
 print(quardrant)
