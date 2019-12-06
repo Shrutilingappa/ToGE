@@ -1,3 +1,5 @@
+#The script uses python 3 and above version
+
 with open('input.txt', 'r') as f:
     matrix = [[int(num) for num in line.split(',')] for line in f]
 
